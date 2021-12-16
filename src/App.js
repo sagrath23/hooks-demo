@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+import { Stopwatch } from './components/stopwatch';
+import { LogCounter } from './components/log-counter';
 import './App.css';
 
 function App() {
@@ -6,9 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Stopwatch />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,6 +18,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        <LogCounter />
+      </main>
     </div>
   );
 }
