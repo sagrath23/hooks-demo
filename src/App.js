@@ -18,7 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <main>
+      <main className='main'>
         <LogCounter />
       </main>
     </div>
